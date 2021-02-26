@@ -762,3 +762,10 @@ Processing by SongsController#index as HTML
 Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 1.9ms | Allocations: 1372)
 
 
+Started GET "/songs" for ::1 at 2021-02-26 11:57:45 -0600
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (2.0ms)[0m  [1m[34mSELECT "songs".* FROM "songs"[0m
+  ↳ app/controllers/songs_controller.rb:8:in `index'
+Completed 200 OK in 115ms (Views: 107.8ms | ActiveRecord: 24.8ms | Allocations: 3447)
+
+
